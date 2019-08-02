@@ -27,15 +27,26 @@
     background-color: $background-color-write;
   }
 
+  &-title {
+    @include px2rem('padding', 48px 68px 32px);
+    @include font(32px);
+
+    font-family: 'PingFangSC-Medium';
+    color: #383838;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 1;
+  }
+
   &-content {
-    @include px2rem('padding', 48px 68px);
+    @include px2rem('padding', 0 68px 48px);
     @include font(28px);
 
     font-family: 'PingFangSC-Regular';
     color: #383838;
     letter-spacing: 0;
     text-align: center;
-    line-height: 1.3;
+    line-height: 1;
   }
 
   &-btnGroup {
@@ -58,7 +69,9 @@
 
     &-left {
       @include border(2px, #f0f0f8, right);
+    }
 
+    &-right {
       color: #0297fe;
     }
   }
