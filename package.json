@@ -1,6 +1,6 @@
 {
   "name": "@fe6/modal",
-  "version": "0.1.9",
+  "version": "1.0.0",
   "description": "em 弹框业务组件",
   "author": "李梦龙 <649076408@qq.com>",
   "main": "dist/modal.js",
